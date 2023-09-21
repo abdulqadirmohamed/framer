@@ -13,8 +13,8 @@ const Header = () => {
                 <nav className='flex items-center gap-8'>
                     <Link className='hover:bg-gray px-4 py-2 rounded-md hover:text-white' href="#">Lessons</Link>
                     <Link className='hover:bg-gray px-4 py-2 rounded-md hover:text-white' href="#">Resource</Link>
-                    <Link className='hover:bg-gray px-4 py-2 rounded-md hover:text-white' href="#">Blog</Link>
-                    <Link className='bg-gray px-4 py-2 rounded-md hover:text-white' href="#">Get free course</Link>
+                    <Link className='hover:bg-gray px-4 py-2 rounded-md hover:text-white' href="/">Blog</Link>
+                    <Link className='bg-gray px-4 py-2 rounded-md hover:text-white' href="/create">Create Post</Link>
                 </nav>
             </div>
         </div>
